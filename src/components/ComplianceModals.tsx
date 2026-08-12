@@ -48,15 +48,10 @@ export const ComplianceModals: React.FC<ComplianceModalsProps> = ({
             <div className="space-y-3">
               <h4 className="font-bold text-slate-900 text-sm">개인정보처리방침 (Privacy Policy)</h4>
               <p>
-                본 웹사이트(&apos;ChatGPT 활용 가이드&apos;)는 방문자의 개인정보 보호를 중요하게 생각하며 관련 법률 및 구글 애드센스 게시자 정책을 준수합니다.
-              </p>
-              
-              <h5 className="font-semibold text-slate-800">1. 쿠키(Cookie) 및 광고 타겟팅</h5>
-              <p>
-                본 사이트는 Google AdSense를 포함한 제3자 제공업체를 통해 사용자 맞춤형 광고를 제공하기 위해 쿠키를 사용합니다. 쿠키는 사용자의 이전 웹사이트 방문 기록을 바탕으로 광고를 제공하는 데 활용됩니다.
+                본 웹사이트(&apos;ChatGPT 활용 가이드&apos;)는 방문자의 개인정보 보호를 중요하게 생각하며 관련 법률을 준수합니다.
               </p>
 
-              <h5 className="font-semibold text-slate-800">2. 수집하는 데이터 및 이용 목적</h5>
+              <h5 className="font-semibold text-slate-800">1. 수집하는 데이터 및 이용 목적</h5>
               <p>
                 사용자가 직접 입력하는 학습 완료 체크리스트 데이터는 외부 서버로 전송되지 않으며, 방문자의 브라우저 로컬 스토리지(LocalStorage)에만 안전하게 저장됩니다.
               </p>
@@ -118,10 +113,6 @@ export const ComplianceModals: React.FC<ComplianceModalsProps> = ({
                 </a>
               </div>
 
-              <div className="flex items-center justify-center gap-2 text-xs text-slate-500 pt-2">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                <span>Google AdSense Authorized Publisher Site</span>
-              </div>
             </div>
           )}
 

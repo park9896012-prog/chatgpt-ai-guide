@@ -216,7 +216,7 @@ export const PromptSandboxModal: React.FC<PromptSandboxModalProps> = ({
 
         {/* Modal Footer */}
         <div className="px-6 py-3 bg-slate-800 border-t border-slate-700 flex items-center justify-between text-xs text-slate-400">
-          <span>ju9896012@gmail.com • Google AdSense Policy Compliant</span>
+          <span>ju9896012@gmail.com</span>
           <button
             onClick={onClose}
             className="px-4 py-1.5 bg-slate-700 hover:bg-slate-600 text-white rounded font-medium cursor-pointer"

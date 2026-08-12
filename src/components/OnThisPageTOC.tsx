@@ -65,17 +65,6 @@ export const OnThisPageTOC: React.FC<OnThisPageTOCProps> = ({
           })}
         </div>
 
-        {/* AdSense Placement Info Note */}
-        <div className="mt-8 pt-4 border-t border-slate-200/80">
-          <div className="p-3 bg-slate-100/80 rounded-lg border border-slate-200 text-[11px] text-slate-500 space-y-1">
-            <p className="font-semibold text-slate-700">📢 AdSense Compliant</p>
-            <p className="leading-snug">
-              {language === 'ko'
-                ? '본 가이드는 구글 애드센스 게시자 정책을 준수하며 유용한 원본 학습 콘텐츠를 제공합니다.'
-                : 'This guide strictly adheres to Google Publisher & AdSense Content Quality Policies.'}
-            </p>
-          </div>
-        </div>
       </nav>
     </aside>
   );

@@ -96,7 +96,7 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
           </div>
 
-          {/* AdSense Policy & Legal Links */}
+          {/* Legal Links */}
           <div className="hidden lg:flex items-center gap-1 border-l border-slate-200 pl-3">
             <button
               onClick={onOpenPrivacy}
