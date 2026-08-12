@@ -1,0 +1,6 @@
+{
+  "name": "ChatGPT 활용",
+  "description": "ChatGPT와 다양한 도구 연동 및 바이브 코딩(Vibe Coding)을 단계별로 학습하는 인터랙티브 실습형 웹사이트",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
