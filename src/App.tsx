@@ -16,7 +16,6 @@ import { ImagePlaceholder } from './components/ImagePlaceholder';
 import { PromptCard } from './components/PromptCard';
 import { CodeBlock } from './components/CodeBlock';
 import { PromptSandboxModal } from './components/PromptSandboxModal';
-import { AdSenseBanner } from './components/AdSenseBanner';
 import { ComplianceModals } from './components/ComplianceModals';
 import { SearchBarModal } from './components/SearchBarModal';
 
@@ -235,9 +234,6 @@ export default function App() {
 
           </div>
 
-          {/* AdSense Responsive Banner Top */}
-          <AdSenseBanner language={language} slotId={`top-ad-module-${currentModule.id}`} />
-
           {/* Step Navigator Bar */}
           <StepNavigator
             steps={currentModule.steps}
@@ -369,9 +365,6 @@ export default function App() {
             </div>
 
           </article>
-
-          {/* AdSense Responsive Banner Bottom */}
-          <AdSenseBanner language={language} slotId={`bottom-ad-module-${currentModule.id}`} />
 
           {/* Footer Contact & Legal Disclaimer */}
           <footer className="mt-12 pt-8 border-t border-slate-200/80 text-center space-y-3 text-xs text-slate-500">
