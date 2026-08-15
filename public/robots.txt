@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chatgpt-guide.app/sitemap.xml
+Sitemap: https://chatgpt-ai-guide.pages.dev/sitemap.xml
